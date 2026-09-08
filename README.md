@@ -12,6 +12,7 @@ Selected university work in high performance computing, machine learning, softwa
 | [eWaste Hub](https://github.com/yongjiang-niuniu/team) | COM6103 team project backend for accounts, authentication, recycling collection requests, and administrative status updates | Python, Flask, SQLAlchemy, JWT, Alembic | Backend snapshot; the repository does not contain the complete team application |
 | [Statistical Language Model](https://github.com/yongjiang-niuniu/COMP) | COM6516 Java application exploring word frequencies, n-gram prediction, hash functions, and collision-chain histograms | Java, Swing, custom hash table and linked nodes | Coursework implementation |
 | [CIFAR-100 Classification Experiments](https://github.com/yongjiang-niuniu/cider-100) | ResNet experiments, hyperparameter search, and Vision Transformer notebooks for image classification | Python, PyTorch, torchvision, Jupyter | Experimental notebooks; saved metrics and execution state require careful interpretation |
+| [Electric Vehicle Routing Research](projects/evrp.md) | Research report comparing genetic algorithms, simulated annealing, and ant colony optimization under load and battery constraints | Combinatorial optimization, local search, feasibility validation | Report preserved privately; implementation and raw experiment files not yet recovered |
 
 The original repository names are retained so existing links and project history continue to work. The `cider-100` repository contains **CIFAR-100** experiments.
 
