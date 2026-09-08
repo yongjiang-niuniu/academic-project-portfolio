@@ -26,13 +26,24 @@ GitHub visibility should be checked for each destination before uploading. A pri
 
 GitHub is one copy of the work, not a guarantee of permanent availability. Keep an independent copy on local storage and an additional backup device or service.
 
-For a repository already available locally, a portable Git backup can be made with:
+Start from a full repository clone. Check `git rev-parse --is-shallow-repository`; if it reports `true`, first run `git fetch --unshallow --tags origin`. A shallow checkout can produce a bundle that appears valid in the original checkout but cannot be restored independently because parent commits are missing.
+
+For a complete repository available locally, a portable Git backup can be made with:
 
 ```sh
 git fetch --all --tags
 git bundle create project-backup.bundle --all
 git bundle verify project-backup.bundle
 ```
+
+Verify restoration in a separate directory as well:
+
+```sh
+git clone --bare project-backup.bundle restored-check.git
+git -C restored-check.git fsck --full
+```
+
+The restored repository should have the expected commit and branches. Keep the verification copy separate from the working project.
 
 A Git bundle contains committed Git objects and references. It does **not** include uncommitted files, external datasets, Git LFS object contents, release attachments, issues, pull-request discussions, or submodule repository contents. Back up those separately when they matter, with appropriate permissions and source records.
 
