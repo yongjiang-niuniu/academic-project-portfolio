@@ -2,7 +2,7 @@
 
 Selected university work in high performance computing, machine learning, software engineering, and data structures. Each linked repository documents the files it actually contains, the steps needed to use them, and any known gaps.
 
-这是我的学校项目索引，集中展示项目目标、技术内容和可复现性说明。小组作品保留团队归属；课程材料及未确认可公开的成果保存在私有仓库中。
+这是我的学校项目索引，集中展示项目目标、技术内容和可复现性说明。小组作品保留团队归属；已恢复的 Classroom 仓库副本和 EVRP 原始报告采用私有保存。未确认归属的本地教学材料不在已上传项目范围内。
 
 ## Projects
 
@@ -11,8 +11,9 @@ Selected university work in high performance computing, machine learning, softwa
 | [Energy and Carbon Monitoring in HPC Systems](https://github.com/yongjiang-niuniu/Energy-and-Carbon-Monitoring-in-High-Performance-Computing-HPC-Systems) | Dissertation research materials, Slurm simulation configuration, workload generation, analysis scripts, and selected simulation outputs | Slurm, Python, shell scripts, Docker | Research in progress; simulated energy estimates depend on documented assumptions |
 | [eWaste Hub](https://github.com/yongjiang-niuniu/team) | COM6103 team project backend for accounts, authentication, recycling collection requests, and administrative status updates | Python, Flask, SQLAlchemy, JWT, Alembic | Backend snapshot; the repository does not contain the complete team application |
 | [Statistical Language Model](https://github.com/yongjiang-niuniu/COMP) | COM6516 Java application exploring word frequencies, n-gram prediction, hash functions, and collision-chain histograms | Java, Swing, custom hash table and linked nodes | Coursework implementation |
-| [CIFAR-100 Classification Experiments](https://github.com/yongjiang-niuniu/cider-100) | ResNet experiments, hyperparameter search, and Vision Transformer notebooks for image classification | Python, PyTorch, torchvision, Jupyter | Experimental notebooks; saved metrics and execution state require careful interpretation |
+| [CIFAR-100 Classification Experiments](https://github.com/yongjiang-niuniu/cider-100) | Configurable ResNet training and Vision Transformer notebooks for image classification | Python, PyTorch, torchvision, Jupyter | Experimental notebooks; saved metrics and execution state require careful interpretation |
 | [Electric Vehicle Routing Research](projects/evrp.md) | Research report comparing genetic algorithms, simulated annealing, and ant colony optimization under load and battery constraints | Combinatorial optimization, local search, feasibility validation | Report preserved privately; implementation and raw experiment files not yet recovered |
+| [YARL Software Reengineering](projects/yarl-reengineering.md) | COM6523 team study of URL operations, internal refactoring, regression tests, and before/after analysis | Python, pytest, repository mining, static and dynamic analysis | Team source and reports preserved privately with original history |
 
 The original repository names are retained so existing links and project history continue to work. The `cider-100` repository contains **CIFAR-100** experiments.
 
