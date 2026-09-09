@@ -8,7 +8,7 @@
 - Setup instructions grounded in the committed files, with missing dependencies or data stated explicitly.
 - A record of where an imported project came from and which branch or commit was preserved.
 
-Private classroom archives use an `ARCHIVE.md` or equivalent provenance record alongside the original learning material. A report-only project should say that the implementation is unavailable rather than present the report as a runnable application.
+Final course project archives use an `ARCHIVE.md` or equivalent provenance record alongside the submitted source and report. When a report is recovered from Blackboard, record the submitted attempt, original filename, and checksum, then compare it with existing copies before replacing any version. A report-only project should say that the implementation is unavailable rather than present the report as a runnable application.
 
 ## Commit history
 

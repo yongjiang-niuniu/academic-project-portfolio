@@ -13,16 +13,16 @@ The team investigated an existing codebase, identified focused changes to its in
 - Added focused regression coverage for joining URLs and constructing child paths.
 - Retained system-understanding notes, analysis outputs, before/after evidence, and the final team report.
 
-The source and reports are kept in a private personal archive with original Git history and attribution. The recorded test and complexity results are historical project evidence; this preservation pass did not rerun the full test suite.
+The source and reports are kept in a private personal archive with original Git history and attribution. The official final report has now been downloaded from the submitted Blackboard attempt; its SHA-256 digest matches the final PDF already preserved from the classroom repository. A separate local PDF copy has a different file hash; the recorded text and page comparisons match the canonical report.
+
+The current final-project archive is commit `71d868c9e77d61e2ebd0e7c0500a7bd3ffe97690`. Its updated documentation links the report to the implementation and recorded evidence, records the verified Blackboard submission, and explains how to reproduce checks while preserving the original coursework outputs.
+
+The recorded test and complexity results are historical project evidence; this preservation pass did not rerun the full test suite.
 
 ## My contribution and attribution
 
 The project report credits **Yongjiang Liu** with coordination, requirements analysis, system understanding, integration, and report synthesis. This is a team project: its source history and report preserve the broader contribution record.
 
 The underlying yarl library is an upstream open-source project. Its existing license, NOTICE, and contributor attribution remain applicable. Archiving this coursework does not claim authorship of the entire library.
-
-## Related coursework
-
-The private course collection also preserves weekly exercises covering Python/Git setup, understanding Black, repository mining, Pygame static analysis, yarl dynamic analysis, regression testing, code clones, refactoring, and responsibility redistribution. Each archive states which work is actually present; a teaching template is not presented as a completed implementation.
 
 [Return to the portfolio](../README.md).
