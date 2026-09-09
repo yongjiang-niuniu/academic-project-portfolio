@@ -2,18 +2,22 @@
 
 Selected final university projects and research in high performance computing, machine learning, software engineering, and data structures. Each linked repository documents the files it actually contains, the steps needed to use them, and any known gaps.
 
-这是我的学校项目索引，集中展示课程最终项目、研究成果和可复现性说明。小组作品保留团队归属；含团队材料的最终提交和 EVRP 原始报告采用私有保存。
+这是我的学校项目索引，集中展示课程最终项目、研究成果和可复现性说明。小组作品保留团队归属；课程提交、课程数据和 EVRP 原始报告采用私有保存。私有链接需要仓库访问权限。
 
 ## Projects
 
 | Project | What is in the repository | Main technologies | Status |
 | --- | --- | --- | --- |
 | [Energy and Carbon Monitoring in HPC Systems](https://github.com/yongjiang-niuniu/Energy-and-Carbon-Monitoring-in-High-Performance-Computing-HPC-Systems) | Dissertation research materials, Slurm simulation configuration, workload generation, analysis scripts, and selected simulation outputs | Slurm, Python, shell scripts, Docker | Research in progress; simulated energy estimates depend on documented assumptions |
-| [eWaste Hub](https://github.com/yongjiang-niuniu/team) | Official COM6103 final report and March 2026 backend snapshot for accounts, authentication, collection requests, and administrative updates | Python, Flask, SQLAlchemy, JWT, Alembic | Official report preserved privately; available code is the March 2026 backend; complete final GitLab source still to be recovered |
-| [Statistical Language Model](https://github.com/yongjiang-niuniu/COMP) | COM6516 Java application exploring word frequencies, n-gram prediction, hash functions, and collision-chain histograms | Java, Swing, custom hash table and linked nodes | Coursework implementation |
+| [eWaste Hub](https://github.com/yongjiang-niuniu/team) | Electronic-waste collection prototype with React frontend, Flask backend, official COM6103 report, and two complete GitLab source snapshots | React, TypeScript, Flask, SQLAlchemy, JWT | Private; report-associated and latest source versions retained; 102 isolated backend tests, frontend build and lint passed |
+| [Statistical Language Model](https://github.com/yongjiang-niuniu/COMP) | COM6516 Java application exploring word frequencies, n-gram prediction, hash functions, and collision-chain histograms, with its official submitted ZIP and student report | Java, Swing, custom hash table and linked nodes | Private; official submission matched to existing code; source rebuild instructions documented |
 | [CIFAR-100 Classification Experiments](https://github.com/yongjiang-niuniu/cider-100) | Configurable ResNet training and Vision Transformer notebooks for image classification | Python, PyTorch, torchvision, Jupyter | Experimental notebooks; saved metrics and execution state require careful interpretation |
 | [Electric Vehicle Routing Research](projects/evrp.md) | Research report comparing genetic algorithms, simulated annealing, and ant colony optimization under load and battery constraints | Combinatorial optimization, local search, feasibility validation | Report preserved privately; implementation and raw experiment files not yet recovered |
 | [YARL Software Reengineering](projects/yarl-reengineering.md) | COM6523 team study of URL operations, internal refactoring, regression tests, and before/after analysis | Python, pytest, repository mining, static and dynamic analysis | Final archive version `71d868c9`; verified Blackboard report, report-to-source guide, and reproduction instructions |
+| [Sentiment Analysis](https://github.com/yongjiang-niuniu/com6115-sentiment-analysis) | COM6115 comparison of Naive Bayes and lexicon-based sentiment classification, including submitted code, report and complete course data | Python, text processing, sentiment lexicons | Private; original script rerun with recovered course data; fresh random split distinguished from report results |
+| [Parallel Computing](https://github.com/yongjiang-niuniu/com6521-parallel-computing) | COM6521 OpenMP and CUDA implementations for glider counting, image histograms and embossing, with submitted report and restored course framework | C, C++, OpenMP, CUDA | Private; source and build references verified; GPU benchmarks require a compatible NVIDIA environment |
+| [3D Computer Graphics](https://github.com/yongjiang-niuniu/com6503-3d-computer-graphics) | COM6503 animated bee scene with hierarchical models, textured surfaces, a skybox and lighting controls | C++17, OpenGL 3.3, GLFW, GLM | Private; Assignment 1 source and assets recovered; submitted Assignment 2 paper awaits retrieval |
+| [Natural Systems Modelling](https://github.com/yongjiang-niuniu/com6009-natural-systems-modelling) | COM6009 report examining Duffing dynamics, agent-based ecology and harvested Lotka–Volterra models | Dynamical systems, ecological modelling, simulation analysis | Private report archive; original simulation code and raw experiment data not recovered |
 
 The original repository names are retained so existing links and project history continue to work. The `cider-100` repository contains **CIFAR-100** experiments.
 
@@ -26,7 +30,11 @@ The original repository names are retained so existing links and project history
 
 ## Coverage
 
-This page focuses on final projects and research. The September 2026 recovery review has identified 11 accessible Blackboard courses and recovered the official final reports for COM6523 and COM6103. The remaining course submissions are being reviewed, so this page does not yet represent every university project. Team source and submission documents retain their attribution and appropriate private storage.
+The September 2026 recovery review checked the submission lists of all **11 accessible Blackboard courses**. Seven courses contain submitted project files and are represented above. The other four contain training or tests, saved drafts, or dissertation deliverables not yet submitted; they are not presented as recovered final projects.
+
+The remaining observed attachment gap is the COM6503 Assignment 2 paper in Turnitin. Natural Systems Modelling and EVRP remain report-only archives because their original implementations have not been recovered. The HPC repository is research in progress, not a verified final dissertation submission.
+
+For eWaste, both recovered GitLab ZIPs contain complete file snapshots. The original 249-commit GitLab history has not been imported; source commit references and the existing GitHub history are preserved. COM6523 weekly exercises are excluded from this final-project portfolio.
 
 See [preservation and maintenance](docs/PRESERVATION.md) for how these projects are kept and updated.
 
