@@ -5,6 +5,10 @@
 **Report date:** April 2025  
 **Institution on the report:** University of Manchester, School of Computer Science
 
+**中文概述：** 本研究探讨电动车路径规划中的扰动、局部搜索与可行性修复，比较遗传算法、模拟退火和蚁群算法。64 页原始报告已保存，当前尚未恢复代码和实验记录。
+
+[Open the private report repository](https://github.com/yongjiang-niuniu/evrp-perturbation-study) — repository access is required.
+
 ## Research question
 
 How can route perturbation, local search, and feasibility repair improve an initial solution to the Electric Vehicle Routing Problem while respecting vehicle capacity and battery constraints?
