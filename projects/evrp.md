@@ -7,7 +7,7 @@
 
 **中文概述：** 本研究探讨电动车路径规划中的扰动、局部搜索与可行性修复，比较遗传算法、模拟退火和蚁群算法。64 页原始报告已保存，当前尚未恢复代码和实验记录。
 
-[Open the private report repository](https://github.com/yongjiang-niuniu/evrp-perturbation-study) — repository access is required.
+[Open the report repository](https://github.com/yongjiang-niuniu/evrp-perturbation-study).
 
 ## Research question
 
@@ -25,7 +25,7 @@ The report also describes a C++ validator that checks customer visits, depot bou
 
 ## What is available
 
-The original 64-page report has been recovered and preserved without modification in a private project archive, together with its SHA-256 checksum and evidence notes.
+The original 64-page report has been recovered and preserved without modification in the project archive, together with its SHA-256 checksum and evidence notes.
 
 This public page summarizes the research. The implementation, original experiment logs, benchmark files, and editable report source have not yet been recovered. The archive is therefore a report record rather than a runnable software release.
 

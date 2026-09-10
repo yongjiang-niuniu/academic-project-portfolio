@@ -8,7 +8,8 @@
 | [YARL reengineering](../projects/yarl-reengineering.md) | Final team work, report-to-source relationship, and contribution record |
 | [Electric vehicle routing](../projects/evrp.md) | Research question, optimization methods, and available report evidence |
 | [Preservation and maintenance](PRESERVATION.md) | Submission integrity, attribution, commit practice, visibility, and backups |
-| [Private academic archive](https://github.com/yongjiang-niuniu/academic-project-archive) | Course inventory, submission provenance, and verified repository revisions; access required |
+| [Academic archive](https://github.com/yongjiang-niuniu/academic-project-archive) | Course inventory, submission provenance, and verified repository revisions |
+| [GitHub profile](https://github.com/yongjiang-niuniu) | Personal introduction and selected work |
 
 ## Reading a project
 

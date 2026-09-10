@@ -16,11 +16,11 @@ Original commits retain their authors and dates. New organization work receives 
 
 Do not backdate imports to simulate development history or create empty commits to increase a contribution count. Do not rewrite a group's original commits to claim individual authorship.
 
-## Public and private copies
+## Publication and original records
 
-Public repositories are suitable for project material whose publication has been checked. Mixed teaching resources, team submissions, private feedback, and material with uncertain permission belong in private storage until reviewed.
+The owner has explicitly authorized public publication of all current projects, their original submitted coursework and reports, both indexes and the profile repository. The collection contains 13 public repositories. Team contributions, course scaffolding, dataset citations and existing license notices retain their attribution.
 
-GitHub visibility should be checked for each destination before uploading. A private source must not become public merely because it has been copied to a personal account. Credentials and unrelated personal records do not belong in either public or private project history.
+Earlier private-publication receipts describe the state when the materials were recovered. Those historical records and original attachments remain unchanged; current repository visibility is recorded separately. Public access does not create a new license on behalf of another contributor. Credentials, unrelated personal records, course marks and private feedback are outside this project archive.
 
 ## Durable backups
 
